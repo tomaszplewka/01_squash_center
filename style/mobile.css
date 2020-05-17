@@ -1,0 +1,249 @@
+/* Media Queries */
+@media screen and (max-width: 900px) {
+    
+    .box {
+        width: 100%;
+        min-height: 200px;
+        padding: 10px 10px 0;
+    }
+
+    .box i {
+        color: var(--font-color-dark);
+        font-size: 4rem;
+        padding-top: 10px;
+    }
+
+    .about-content {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .about-img {
+        width: 100%;
+        padding: 0 0 20px;
+    }
+
+    .about-img img {
+        display: block;
+        margin: auto;
+        width: 60%;
+        border-radius: 0 100px;
+    }
+
+    .review p {
+        font-size: 1.5rem;
+    }
+
+    #contact-features .box:nth-child(1),
+    #contact-features .box:nth-child(2) {
+        border-bottom: 2px dotted #333;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    
+    .content {
+        padding: 20px;
+    }
+
+    /* Headings */
+    .heading-1 {
+        font-size: 3rem;
+        letter-spacing: 1.5px;
+        padding: 20px 0;
+    }
+
+    .heading-2 {
+        font-size: 2rem;
+        padding: 15px 0;
+    }
+
+    /* Paragraphs */
+    .p-1 {
+        font-size: 1.6rem;
+        padding: 20px;
+    }
+
+    .p-2 {
+        font-size: 1.4rem;
+        padding: 15px;
+    }
+
+    /* Buttons */
+    .btn-dark,
+    .btn-light,
+    .btn-emphasis {
+        margin: 10px;
+        padding: 15px;
+        font-size: 1.75rem;
+    }
+    
+    #home-info {
+        height: 650px;
+        overflow: hidden;
+    }
+
+    .home-info-content {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .home-info-img-1 {
+        background-size: contain;
+        background-position: top;
+        display: inline-block;
+        width: 50%;
+    }
+
+    .home-info-img-2 {
+        background-size: contain;
+        background-position: top;
+        display: inline-block;
+        width: 50%;
+    }
+
+    .about-content {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .about-img {
+        width: 100%;
+        padding: 0 0 20px;
+    }
+
+    .about-img img {
+        border-radius: 0 60px;
+    }
+
+    .review {
+        padding: 10px;
+        border-radius: 0 80px;
+    }
+
+    .review img {
+        border-radius: 0 50px;
+    }
+
+    .review p {
+        padding-right: 35px;
+        font-size: 1.5rem;
+    }
+
+    .review span {
+        font-size: 1.7rem;
+    }
+
+    #contact-features .box i {
+    padding: 10px 0 0;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    #navbar .logo a {
+        font-size: 2.25rem;
+    }
+
+    .dropdown-menu{
+        float: right;
+        width: 100%;
+    }
+
+    #navbar ul {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    #navbar ul li {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    #navbar ul li a{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .dropdown-menu label{
+        float: right;
+        cursor: pointer;
+        background: url(../img/closed.png) no-repeat left center/contain;
+        padding: 30px;
+    } 
+
+    /* Toggle Effect */
+
+    .menu-content{
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    input:checked ~ .menu-content{
+        clear: both;
+        max-height: 1000px;
+        transition: all 0.5s ease-in
+    }
+
+    input:checked ~ label{
+        background: url(../img/open.png) no-repeat left center/contain;
+    }
+
+    #about-reviews {
+        height: auto;
+    }
+
+    .review {
+        padding: 10px;
+        border-radius: 0 80px;
+    }
+
+    .review img {
+        width: 30%;
+        border-radius: 0 50px;
+        padding-right: 20px;
+    }
+
+    .review p {
+        float: none;
+        display: block;
+        width: 100%;
+        padding-right: 35px;
+        font-size: 1.5rem;
+    }
+
+    .review span {
+        font-size: 1.7rem;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    #home-info {
+        height: 550px;
+    }
+
+    .review img {
+        width: 50%;
+        border-radius: 0 50px;
+        padding-right: 20px;
+    }
+
+    .review p {
+        font-size: 1.25rem;
+    }
+
+    .review span {
+        font-size: 1.5rem;
+    }
+
+}
