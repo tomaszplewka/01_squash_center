@@ -28,13 +28,22 @@ These are: floats, flexbox & grid. Each of them is placed in its own branch.
 # Demo
 
 + Desktop :desktop_computer:
-<img src="https://github.com/tomaszplewka/01_squash_center/blob/master/gifs/squash_center_desktop.gif" width="600" alt="desktop">
+
+<p align="center">
+    <img src="https://github.com/tomaszplewka/01_squash_center/blob/master/gifs/squash_center_desktop.gif" width="700" alt="desktop">
+</p>
 
 + Tablet :computer:
-<img src="https://github.com/tomaszplewka/01_squash_center/blob/master/gifs/squash_center_tablet.gif" width="400" alt="tablet">
+
+<p align="center">
+    <img src="https://github.com/tomaszplewka/01_squash_center/blob/master/gifs/squash_center_tablet.gif" width="350" alt="tablet">
+</p>
 
 + Mobile :iphone:
-<img src="https://github.com/tomaszplewka/01_squash_center/blob/master/gifs/squash_center_mobile.gif" width="300" alt="mobile">
+
+<p align="center">
+    <img src="https://github.com/tomaszplewka/01_squash_center/blob/master/gifs/squash_center_mobile.gif" width="250" alt="mobile">
+</p>
 
 # Toolbox
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
